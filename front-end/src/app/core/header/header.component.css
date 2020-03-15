@@ -1,0 +1,80 @@
+div {
+  background-color: lightgrey;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div #logo {
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 2px;
+  padding: 1vh;
+  font-size: 36px;
+  height: 100%;
+}
+
+div #logo #web {
+  color: red;
+}
+
+div #logo #fun {
+  color: yellow;
+}
+
+div #logo:hover {
+  border-radius: 1rem;
+  background-color: greenyellow;
+  color: blue;
+  cursor: pointer;
+}
+
+div ul {
+  display: inline-block;
+}
+
+div ul li {
+  color: greenyellow;
+  background-color: blue;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  list-style: none;
+  margin: 2px;
+  padding: 1vh;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+div ul li:last-child:hover > form {
+  display: block;
+}
+
+div ul li:hover, div ul li label:hover, div ul li button:hover {
+  border-radius: 1rem;
+  background-color: greenyellow;
+  color: blue;
+  cursor: pointer;
+}
+
+div ul li label:hover, div ul li button:hover {
+  margin: 0.5vh 1vh;
+  padding: 0.5vh 1vh;
+}
+
+div ul li form {
+  display: none;
+}
+
+div ul li form input, div ul li form button {
+  border-radius: 1rem;
+}
+/*# sourceMappingURL=header.component.css.map */

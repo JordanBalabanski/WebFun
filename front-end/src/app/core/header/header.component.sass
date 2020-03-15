@@ -1,0 +1,50 @@
+div    
+    background-color: lightgrey
+    border-radius: 1rem
+    display: flex
+    justify-content: space-between
+    align-items: center
+    #logo
+        background-color: blue
+        border: 1px solid black
+        border-radius: 1rem
+        margin: 2px
+        padding: 1vh
+        font-size: 36px
+        height: 100%
+        #web
+            color: red
+        #fun            
+            color: yellow
+        &:hover
+            border-radius: 1rem
+            background-color: greenyellow
+            color: blue
+            cursor: pointer
+    ul
+        display: inline-block
+        li
+            color: greenyellow
+            background-color: blue
+            font-size: 16px
+            font-weight: bold
+            display: inline-block
+            list-style: none
+            margin: 2px
+            padding: 1vh
+            border: 1px solid black
+            border-radius: 1rem
+            &:last-child:hover > form
+                display: block
+            &:hover, label:hover, button:hover
+                border-radius: 1rem
+                background-color: greenyellow
+                color: blue
+                cursor: pointer
+            label:hover, button:hover
+                margin: 0.5vh 1vh
+                padding: 0.5vh 1vh
+            form
+                display: none
+                input, button
+                    border-radius: 1rem
